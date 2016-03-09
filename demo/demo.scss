@@ -4,6 +4,17 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
 
 */
 
+//BOURBON - http://bourbon.io/
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+//MODERNIZR-MIXIN - https://github.com/danielguillan/modernizr-mixin
+@import "../bower_components/modernizr-mixin/stylesheets/modernizr";
+
+//MATHSASS - https://github.com/terkel/mathsass
+@import "../bower_components/mathsass/dist/math";
+
+//MODERNIZR-SCSS - https://github.com/FCOO/modernizr-scss
+@import "../bower_components/modernizr-scss/dist/modernizr-scss";
 
 //MODERNIZR-MEDIAQUERY - http://github.com/FCOO/modernizr-mediaquery
 @import "../src/lang-flag-icon";
