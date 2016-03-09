@@ -124,7 +124,7 @@ Niels Holt nho@fcoo.dk
 
 ## Credits and acknowledgements
 
-[flag-icon-css](lipis/flag-icon-css) by [Lipsi](https://github.com/lipis)
+[flag-icon-css](https://github.com/lipis/flag-icon-css) by [Lipsi](https://github.com/lipis)
 
 
 

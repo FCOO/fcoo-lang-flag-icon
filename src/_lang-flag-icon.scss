@@ -61,6 +61,10 @@ $lang-modernizr-list: (
   background-repeat: no-repeat;
 }
 
+.flag-icon-background {
+  @include flag-icon-background();
+}
+
 //.flag-icon from flag-icon-css
 .flag-icon {
   @include flag-icon-background();

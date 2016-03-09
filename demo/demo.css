@@ -43,6 +43,12 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
 }
 
 /* Compiled by grunt-svg-extend */
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
 .flag-icon {
   background-size: contain;
   background-position: 50%;
