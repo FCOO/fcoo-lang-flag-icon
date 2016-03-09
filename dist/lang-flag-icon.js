@@ -14,7 +14,7 @@
 	var ns = window;
 
 	function LangFlag( options ) {
-		this.VERSION = "0.1.0";
+		this.VERSION = "0.1.1";
 		this.options = $.extend({
 			//Default options
 			defaultFlag: 'dk',
