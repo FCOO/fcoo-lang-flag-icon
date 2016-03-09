@@ -1,0 +1,400 @@
+/*
+
+DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
+
+*/
+/***********************************************
+	lang-flag-icon.scss, 
+
+	(c) 2016, FCOO
+
+	https://github.com/FCOO/lang-flag-icon
+	https://github.com/FCOO
+
+
+************************************************/
+/* Compiled by grunt-svg-extend */
+.lang-icon-de {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fc0%22%20d%3D%22M0%20320h640v160.002H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M0%200h640v160H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23f00%22%20d%3D%22M0%20160h640v160H0z%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.flag-icon-dk, .lang-icon-da {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%3E%20%20%3Cpath%20fill%3D%22%23c60c30%22%20d%3D%22M0%200h640.1v480H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M205.714%200h68.57v480h-68.57z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%20205.714h640.1v68.57H0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.flag-icon-fo, .lang-icon-fo {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-78.015%2032h640v480h-640z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url(%23a)%22%20transform%3D%22translate(78.02%20-32)%22%20stroke-width%3D%220%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M-78.015%2032h663.91v480h-663.91z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-76.033%20218.67h185.9V32h106.23v186.67h371.79v106.67h-371.79v186.67h-106.23V325.34h-185.9V218.67z%22%20fill%3D%22%23003897%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-76.033%20245.33h212.45V32h53.113v213.33h398.35v53.333H189.53v213.33h-53.113v-213.33h-212.45V245.33z%22%20fill%3D%22%23d72828%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.lang-icon-en {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-85.333%200h682.67v512h-682.67z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20clip-path%3D%22url(%23a)%22%20transform%3D%22matrix(.94%200%200%20.94%2080%200)%22%3E%20%20%20%20%3Cg%20stroke-width%3D%221pt%22%3E%20%20%20%20%20%20%3Cpath%20fill%3D%22%23006%22%20d%3D%22M-256%200H768.02v512.01H-256z%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M-256%200v57.244l909.535%20454.768H768.02V454.77L-141.515%200H-256zM768.02%200v57.243L-141.515%20512.01H-256v-57.243L653.535%200H768.02z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M170.675%200v512.01h170.67V0h-170.67zM-256%20170.67v170.67H768.02V170.67H-256z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M-256%20204.804v102.402H768.02V204.804H-256zM204.81%200v512.01h102.4V0h-102.4zM-256%20512.01L85.34%20341.34h76.324l-341.34%20170.67H-256zM-256%200L85.34%20170.67H9.016L-256%2038.164V0zm606.356%20170.67L691.696%200h76.324L426.68%20170.67h-76.324zM768.02%20512.01L426.68%20341.34h76.324L768.02%20473.848v38.162z%22%20fill%3D%22%23c00%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2Fg%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.flag-icon-gl, .lang-icon-kl {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-62.883%200h682.67v512h-682.67z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url(%23a)%22%20transform%3D%22matrix(.94%200%200%20.94%2058.95%200)%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M661.1%20512h-766.65V0H661.1z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23df0000%22%20d%3D%22M661.1%20512h-766.65V256.45H661.1zM347.57%20255.85c0-86.577-70.184-156.766-156.763-156.766-86.576%200-156.765%2070.185-156.765%20156.765%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M347.57%20255.75c0%2086.577-70.184%20156.766-156.763%20156.766-86.576%200-156.765-70.185-156.765-156.765%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.lang-icon-no {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cpath%20fill%3D%22%23ef2b2d%22%20d%3D%22M0%200h640v480H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M180%200h120v480H180z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%20180h640v120H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23002868%22%20d%3D%22M210%200h60v480h-60z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23002868%22%20d%3D%22M0%20210h640v60H0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.lang-icon-sv {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20id%3D%22svg589%22%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%20%3Cmetadata%20id%3D%22metadata3065%22%3E%20%20%3Crdf%3ARDF%3E%20%20%20%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%20%20%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%20%20%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%3E%3C%2Fdc%3Atype%3E%20%20%20%3C%2Fcc%3AWork%3E%20%20%3C%2Frdf%3ARDF%3E%20%3C%2Fmetadata%3E%20%3Cdefs%20id%3D%22defs591%22%3E%20%20%3CclipPath%20id%3D%22clipPath15333%22%20clipPathUnits%3D%22userSpaceOnUse%22%3E%20%20%20%3Crect%20id%3D%22rect15335%22%20fill-opacity%3D%220.67%22%20height%3D%22512%22%20width%3D%22682.67%22%20y%3D%22.0000090621%22%20x%3D%22-53.421%22%3E%3C%2Frect%3E%20%20%3C%2FclipPath%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22flag%22%20clip-path%3D%22url(%23clipPath15333)%22%20transform%3D%22matrix(.9375%200%200%20.9375%2050.082%20-.0000084958)%22%3E%20%20%3Cg%20id%3D%22g558%22%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%20transform%3D%22matrix(2.9257%200%200%202.9257%20-745.33%20-969.48)%22%3E%20%20%20%3Crect%20id%3D%22rect552%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22331.47%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect553%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22436.36%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect554%22%20height%3D%2235%22%20width%3D%2287.5%22%20y%3D%22401.43%22%20x%3D%22213.36%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect556%22%20height%3D%22175%22%20width%3D%2235%22%20y%3D%22331.37%22%20x%3D%22300.5%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect557%22%20height%3D%2235%22%20width%3D%22157.5%22%20y%3D%22401.44%22%20x%3D%22334.39%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect558%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22436.37%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect559%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22331.47%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/* Compiled by grunt-svg-extend */
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: '\00a0';
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+
+.lang-flag-icon-flag {
+  font-family: dkfogl;
+}
+
+.lang-flag-icon-lang {
+  font-family: daendesvnofokl;
+}
+
+.lang-flag-icon-flag-modernizr {
+  font-family: dkfogl;
+}
+
+.lang-flag-icon-lang-modernizr {
+  font-family: daenfokl;
+}
+
+html.flag-dk .show-for-flag-dk {
+  display: inherit !important;
+}
+html.flag-dk .hide-for-flag-dk {
+  display: none								!important;
+}
+html.flag-dk table.show-for-flag-dk {
+  display: table							!important;
+}
+html.flag-dk thead.show-for-flag-dk {
+  display: table-header-group !important;
+}
+html.flag-dk tbody.show-for-flag-dk {
+  display: table-row-group		!important;
+}
+html.flag-dk tr.show-for-flag-dk {
+  display: table-row					!important;
+}
+html.flag-dk td.show-for-flag-dk,
+html.flag-dk th.show-for-flag-dk {
+  display: table-cell					!important;
+}
+
+html.no-flag-dk .hide-for-flag-dk {
+  display: inherit !important;
+}
+html.no-flag-dk .show-for-flag-dk {
+  display: none								!important;
+}
+html.no-flag-dk table.hide-for-flag-dk {
+  display: table							!important;
+}
+html.no-flag-dk thead.hide-for-flag-dk {
+  display: table-header-group !important;
+}
+html.no-flag-dk tbody.hide-for-flag-dk {
+  display: table-row-group		!important;
+}
+html.no-flag-dk tr.hide-for-flag-dk {
+  display: table-row					!important;
+}
+html.no-flag-dk td.hide-for-flag-dk,
+html.no-flag-dk th.hide-for-flag-dk {
+  display: table-cell					!important;
+}
+
+html.flag-fo .show-for-flag-fo {
+  display: inherit !important;
+}
+html.flag-fo .hide-for-flag-fo {
+  display: none								!important;
+}
+html.flag-fo table.show-for-flag-fo {
+  display: table							!important;
+}
+html.flag-fo thead.show-for-flag-fo {
+  display: table-header-group !important;
+}
+html.flag-fo tbody.show-for-flag-fo {
+  display: table-row-group		!important;
+}
+html.flag-fo tr.show-for-flag-fo {
+  display: table-row					!important;
+}
+html.flag-fo td.show-for-flag-fo,
+html.flag-fo th.show-for-flag-fo {
+  display: table-cell					!important;
+}
+
+html.no-flag-fo .hide-for-flag-fo {
+  display: inherit !important;
+}
+html.no-flag-fo .show-for-flag-fo {
+  display: none								!important;
+}
+html.no-flag-fo table.hide-for-flag-fo {
+  display: table							!important;
+}
+html.no-flag-fo thead.hide-for-flag-fo {
+  display: table-header-group !important;
+}
+html.no-flag-fo tbody.hide-for-flag-fo {
+  display: table-row-group		!important;
+}
+html.no-flag-fo tr.hide-for-flag-fo {
+  display: table-row					!important;
+}
+html.no-flag-fo td.hide-for-flag-fo,
+html.no-flag-fo th.hide-for-flag-fo {
+  display: table-cell					!important;
+}
+
+html.flag-gl .show-for-flag-gl {
+  display: inherit !important;
+}
+html.flag-gl .hide-for-flag-gl {
+  display: none								!important;
+}
+html.flag-gl table.show-for-flag-gl {
+  display: table							!important;
+}
+html.flag-gl thead.show-for-flag-gl {
+  display: table-header-group !important;
+}
+html.flag-gl tbody.show-for-flag-gl {
+  display: table-row-group		!important;
+}
+html.flag-gl tr.show-for-flag-gl {
+  display: table-row					!important;
+}
+html.flag-gl td.show-for-flag-gl,
+html.flag-gl th.show-for-flag-gl {
+  display: table-cell					!important;
+}
+
+html.no-flag-gl .hide-for-flag-gl {
+  display: inherit !important;
+}
+html.no-flag-gl .show-for-flag-gl {
+  display: none								!important;
+}
+html.no-flag-gl table.hide-for-flag-gl {
+  display: table							!important;
+}
+html.no-flag-gl thead.hide-for-flag-gl {
+  display: table-header-group !important;
+}
+html.no-flag-gl tbody.hide-for-flag-gl {
+  display: table-row-group		!important;
+}
+html.no-flag-gl tr.hide-for-flag-gl {
+  display: table-row					!important;
+}
+html.no-flag-gl td.hide-for-flag-gl,
+html.no-flag-gl th.hide-for-flag-gl {
+  display: table-cell					!important;
+}
+
+html.lang-da .show-for-lang-da {
+  display: inherit !important;
+}
+html.lang-da .hide-for-lang-da {
+  display: none								!important;
+}
+html.lang-da table.show-for-lang-da {
+  display: table							!important;
+}
+html.lang-da thead.show-for-lang-da {
+  display: table-header-group !important;
+}
+html.lang-da tbody.show-for-lang-da {
+  display: table-row-group		!important;
+}
+html.lang-da tr.show-for-lang-da {
+  display: table-row					!important;
+}
+html.lang-da td.show-for-lang-da,
+html.lang-da th.show-for-lang-da {
+  display: table-cell					!important;
+}
+
+html.no-lang-da .hide-for-lang-da {
+  display: inherit !important;
+}
+html.no-lang-da .show-for-lang-da {
+  display: none								!important;
+}
+html.no-lang-da table.hide-for-lang-da {
+  display: table							!important;
+}
+html.no-lang-da thead.hide-for-lang-da {
+  display: table-header-group !important;
+}
+html.no-lang-da tbody.hide-for-lang-da {
+  display: table-row-group		!important;
+}
+html.no-lang-da tr.hide-for-lang-da {
+  display: table-row					!important;
+}
+html.no-lang-da td.hide-for-lang-da,
+html.no-lang-da th.hide-for-lang-da {
+  display: table-cell					!important;
+}
+
+html.lang-en .show-for-lang-en {
+  display: inherit !important;
+}
+html.lang-en .hide-for-lang-en {
+  display: none								!important;
+}
+html.lang-en table.show-for-lang-en {
+  display: table							!important;
+}
+html.lang-en thead.show-for-lang-en {
+  display: table-header-group !important;
+}
+html.lang-en tbody.show-for-lang-en {
+  display: table-row-group		!important;
+}
+html.lang-en tr.show-for-lang-en {
+  display: table-row					!important;
+}
+html.lang-en td.show-for-lang-en,
+html.lang-en th.show-for-lang-en {
+  display: table-cell					!important;
+}
+
+html.no-lang-en .hide-for-lang-en {
+  display: inherit !important;
+}
+html.no-lang-en .show-for-lang-en {
+  display: none								!important;
+}
+html.no-lang-en table.hide-for-lang-en {
+  display: table							!important;
+}
+html.no-lang-en thead.hide-for-lang-en {
+  display: table-header-group !important;
+}
+html.no-lang-en tbody.hide-for-lang-en {
+  display: table-row-group		!important;
+}
+html.no-lang-en tr.hide-for-lang-en {
+  display: table-row					!important;
+}
+html.no-lang-en td.hide-for-lang-en,
+html.no-lang-en th.hide-for-lang-en {
+  display: table-cell					!important;
+}
+
+html.lang-fo .show-for-lang-fo {
+  display: inherit !important;
+}
+html.lang-fo .hide-for-lang-fo {
+  display: none								!important;
+}
+html.lang-fo table.show-for-lang-fo {
+  display: table							!important;
+}
+html.lang-fo thead.show-for-lang-fo {
+  display: table-header-group !important;
+}
+html.lang-fo tbody.show-for-lang-fo {
+  display: table-row-group		!important;
+}
+html.lang-fo tr.show-for-lang-fo {
+  display: table-row					!important;
+}
+html.lang-fo td.show-for-lang-fo,
+html.lang-fo th.show-for-lang-fo {
+  display: table-cell					!important;
+}
+
+html.no-lang-fo .hide-for-lang-fo {
+  display: inherit !important;
+}
+html.no-lang-fo .show-for-lang-fo {
+  display: none								!important;
+}
+html.no-lang-fo table.hide-for-lang-fo {
+  display: table							!important;
+}
+html.no-lang-fo thead.hide-for-lang-fo {
+  display: table-header-group !important;
+}
+html.no-lang-fo tbody.hide-for-lang-fo {
+  display: table-row-group		!important;
+}
+html.no-lang-fo tr.hide-for-lang-fo {
+  display: table-row					!important;
+}
+html.no-lang-fo td.hide-for-lang-fo,
+html.no-lang-fo th.hide-for-lang-fo {
+  display: table-cell					!important;
+}
+
+html.lang-kl .show-for-lang-kl {
+  display: inherit !important;
+}
+html.lang-kl .hide-for-lang-kl {
+  display: none								!important;
+}
+html.lang-kl table.show-for-lang-kl {
+  display: table							!important;
+}
+html.lang-kl thead.show-for-lang-kl {
+  display: table-header-group !important;
+}
+html.lang-kl tbody.show-for-lang-kl {
+  display: table-row-group		!important;
+}
+html.lang-kl tr.show-for-lang-kl {
+  display: table-row					!important;
+}
+html.lang-kl td.show-for-lang-kl,
+html.lang-kl th.show-for-lang-kl {
+  display: table-cell					!important;
+}
+
+html.no-lang-kl .hide-for-lang-kl {
+  display: inherit !important;
+}
+html.no-lang-kl .show-for-lang-kl {
+  display: none								!important;
+}
+html.no-lang-kl table.hide-for-lang-kl {
+  display: table							!important;
+}
+html.no-lang-kl thead.hide-for-lang-kl {
+  display: table-header-group !important;
+}
+html.no-lang-kl tbody.hide-for-lang-kl {
+  display: table-row-group		!important;
+}
+html.no-lang-kl tr.hide-for-lang-kl {
+  display: table-row					!important;
+}
+html.no-lang-kl td.hide-for-lang-kl,
+html.no-lang-kl th.hide-for-lang-kl {
+  display: table-cell					!important;
+}
+
+/*# sourceMappingURL=demo.css.map */

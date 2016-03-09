@@ -1,0 +1,36 @@
+{
+  "name": "lang-flag-icon",
+  "version": "0.1.0",
+  "homepage": "https://github.com/FCOO/lang-flag-icon",
+  "authors": [
+    "Niels Holt nho@fcoo.dk"
+  ],
+  "description": "",
+  "main": [
+    "dist/lang-flag-icon.min.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/lang-flag-icon.git"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "bourbon": "latest",
+    "modernizr-mixin": "latest",
+    "mathsass": "latest",
+    "modernizr-scss": "fcoo/modernizr-scss#^1.3.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
