@@ -81,326 +81,284 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
   font-family: daenfokl;
 }
 
-html.flag-dk .show-for-flag-dk {
-  display: inherit !important;
-}
 html.flag-dk .hide-for-flag-dk {
-  display: none								!important;
+  display: none !important;
 }
 html.flag-dk table.show-for-flag-dk {
-  display: table							!important;
+  display: table;
 }
 html.flag-dk thead.show-for-flag-dk {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.flag-dk tbody.show-for-flag-dk {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.flag-dk tr.show-for-flag-dk {
-  display: table-row					!important;
+  display: table-row;
 }
 html.flag-dk td.show-for-flag-dk,
 html.flag-dk th.show-for-flag-dk {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-flag-dk .hide-for-flag-dk {
-  display: inherit !important;
-}
 html.no-flag-dk .show-for-flag-dk {
-  display: none								!important;
+  display: none !important;
 }
 html.no-flag-dk table.hide-for-flag-dk {
-  display: table							!important;
+  display: table;
 }
 html.no-flag-dk thead.hide-for-flag-dk {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-flag-dk tbody.hide-for-flag-dk {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-flag-dk tr.hide-for-flag-dk {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-flag-dk td.hide-for-flag-dk,
 html.no-flag-dk th.hide-for-flag-dk {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.flag-fo .show-for-flag-fo {
-  display: inherit !important;
-}
 html.flag-fo .hide-for-flag-fo {
-  display: none								!important;
+  display: none !important;
 }
 html.flag-fo table.show-for-flag-fo {
-  display: table							!important;
+  display: table;
 }
 html.flag-fo thead.show-for-flag-fo {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.flag-fo tbody.show-for-flag-fo {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.flag-fo tr.show-for-flag-fo {
-  display: table-row					!important;
+  display: table-row;
 }
 html.flag-fo td.show-for-flag-fo,
 html.flag-fo th.show-for-flag-fo {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-flag-fo .hide-for-flag-fo {
-  display: inherit !important;
-}
 html.no-flag-fo .show-for-flag-fo {
-  display: none								!important;
+  display: none !important;
 }
 html.no-flag-fo table.hide-for-flag-fo {
-  display: table							!important;
+  display: table;
 }
 html.no-flag-fo thead.hide-for-flag-fo {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-flag-fo tbody.hide-for-flag-fo {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-flag-fo tr.hide-for-flag-fo {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-flag-fo td.hide-for-flag-fo,
 html.no-flag-fo th.hide-for-flag-fo {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.flag-gl .show-for-flag-gl {
-  display: inherit !important;
-}
 html.flag-gl .hide-for-flag-gl {
-  display: none								!important;
+  display: none !important;
 }
 html.flag-gl table.show-for-flag-gl {
-  display: table							!important;
+  display: table;
 }
 html.flag-gl thead.show-for-flag-gl {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.flag-gl tbody.show-for-flag-gl {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.flag-gl tr.show-for-flag-gl {
-  display: table-row					!important;
+  display: table-row;
 }
 html.flag-gl td.show-for-flag-gl,
 html.flag-gl th.show-for-flag-gl {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-flag-gl .hide-for-flag-gl {
-  display: inherit !important;
-}
 html.no-flag-gl .show-for-flag-gl {
-  display: none								!important;
+  display: none !important;
 }
 html.no-flag-gl table.hide-for-flag-gl {
-  display: table							!important;
+  display: table;
 }
 html.no-flag-gl thead.hide-for-flag-gl {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-flag-gl tbody.hide-for-flag-gl {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-flag-gl tr.hide-for-flag-gl {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-flag-gl td.hide-for-flag-gl,
 html.no-flag-gl th.hide-for-flag-gl {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.lang-da .show-for-lang-da {
-  display: inherit !important;
-}
 html.lang-da .hide-for-lang-da {
-  display: none								!important;
+  display: none !important;
 }
 html.lang-da table.show-for-lang-da {
-  display: table							!important;
+  display: table;
 }
 html.lang-da thead.show-for-lang-da {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.lang-da tbody.show-for-lang-da {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.lang-da tr.show-for-lang-da {
-  display: table-row					!important;
+  display: table-row;
 }
 html.lang-da td.show-for-lang-da,
 html.lang-da th.show-for-lang-da {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-lang-da .hide-for-lang-da {
-  display: inherit !important;
-}
 html.no-lang-da .show-for-lang-da {
-  display: none								!important;
+  display: none !important;
 }
 html.no-lang-da table.hide-for-lang-da {
-  display: table							!important;
+  display: table;
 }
 html.no-lang-da thead.hide-for-lang-da {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-lang-da tbody.hide-for-lang-da {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-lang-da tr.hide-for-lang-da {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-lang-da td.hide-for-lang-da,
 html.no-lang-da th.hide-for-lang-da {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.lang-en .show-for-lang-en {
-  display: inherit !important;
-}
 html.lang-en .hide-for-lang-en {
-  display: none								!important;
+  display: none !important;
 }
 html.lang-en table.show-for-lang-en {
-  display: table							!important;
+  display: table;
 }
 html.lang-en thead.show-for-lang-en {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.lang-en tbody.show-for-lang-en {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.lang-en tr.show-for-lang-en {
-  display: table-row					!important;
+  display: table-row;
 }
 html.lang-en td.show-for-lang-en,
 html.lang-en th.show-for-lang-en {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-lang-en .hide-for-lang-en {
-  display: inherit !important;
-}
 html.no-lang-en .show-for-lang-en {
-  display: none								!important;
+  display: none !important;
 }
 html.no-lang-en table.hide-for-lang-en {
-  display: table							!important;
+  display: table;
 }
 html.no-lang-en thead.hide-for-lang-en {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-lang-en tbody.hide-for-lang-en {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-lang-en tr.hide-for-lang-en {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-lang-en td.hide-for-lang-en,
 html.no-lang-en th.hide-for-lang-en {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.lang-fo .show-for-lang-fo {
-  display: inherit !important;
-}
 html.lang-fo .hide-for-lang-fo {
-  display: none								!important;
+  display: none !important;
 }
 html.lang-fo table.show-for-lang-fo {
-  display: table							!important;
+  display: table;
 }
 html.lang-fo thead.show-for-lang-fo {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.lang-fo tbody.show-for-lang-fo {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.lang-fo tr.show-for-lang-fo {
-  display: table-row					!important;
+  display: table-row;
 }
 html.lang-fo td.show-for-lang-fo,
 html.lang-fo th.show-for-lang-fo {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-lang-fo .hide-for-lang-fo {
-  display: inherit !important;
-}
 html.no-lang-fo .show-for-lang-fo {
-  display: none								!important;
+  display: none !important;
 }
 html.no-lang-fo table.hide-for-lang-fo {
-  display: table							!important;
+  display: table;
 }
 html.no-lang-fo thead.hide-for-lang-fo {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-lang-fo tbody.hide-for-lang-fo {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-lang-fo tr.hide-for-lang-fo {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-lang-fo td.hide-for-lang-fo,
 html.no-lang-fo th.hide-for-lang-fo {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.lang-kl .show-for-lang-kl {
-  display: inherit !important;
-}
 html.lang-kl .hide-for-lang-kl {
-  display: none								!important;
+  display: none !important;
 }
 html.lang-kl table.show-for-lang-kl {
-  display: table							!important;
+  display: table;
 }
 html.lang-kl thead.show-for-lang-kl {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.lang-kl tbody.show-for-lang-kl {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.lang-kl tr.show-for-lang-kl {
-  display: table-row					!important;
+  display: table-row;
 }
 html.lang-kl td.show-for-lang-kl,
 html.lang-kl th.show-for-lang-kl {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
-html.no-lang-kl .hide-for-lang-kl {
-  display: inherit !important;
-}
 html.no-lang-kl .show-for-lang-kl {
-  display: none								!important;
+  display: none !important;
 }
 html.no-lang-kl table.hide-for-lang-kl {
-  display: table							!important;
+  display: table;
 }
 html.no-lang-kl thead.hide-for-lang-kl {
-  display: table-header-group !important;
+  display: table-header-group;
 }
 html.no-lang-kl tbody.hide-for-lang-kl {
-  display: table-row-group		!important;
+  display: table-row-group;
 }
 html.no-lang-kl tr.hide-for-lang-kl {
-  display: table-row					!important;
+  display: table-row;
 }
 html.no-lang-kl td.hide-for-lang-kl,
 html.no-lang-kl th.hide-for-lang-kl {
-  display: table-cell					!important;
+  display: table-cell;
 }
 
 /*# sourceMappingURL=demo.css.map */
