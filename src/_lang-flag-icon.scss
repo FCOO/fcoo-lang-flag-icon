@@ -19,8 +19,8 @@
 //$include-squared = if true css for squared flags is also created
 $include-squared: false !default; 
 
-$display-value			: '' !default;		// Value for display:... when element is visible. Default = '' => no class created.
-$incl-table-display	: true !default; //	if true classes for table-elements (TABLE, TR,TD etc.) are included 
+$lfi-display-value			: '' !default;		// Value for display:... when element is visible. Default = '' => no class created.
+$lfi-incl-table-display	: true !default; //	if true classes for table-elements (TABLE, TR,TD etc.) are included 
 
 //$flag-list = list of country-codes (XX) where there will be classes flag-icon-XX
 $flag-list: dk, fo, gl !default; 
@@ -144,11 +144,11 @@ $list-str: '';
 //Create the Modernizr-classes for 'show-for-flag-XX' and 'hide-for-flag-XX' the country-codes XX in $flag-modernizr-list
 //using @mixin show-and-hide-for-modernizr-test( $modernizr-test , $parent-element-type: '', $incl-no-selector: true ){
 @each $flag, $incl-no-selector in $flag-modernizr-list {
-	@include show-and-hide-for-modernizr-test( 'flag-' + $flag , 'html', $incl-no-selector, $display-value, $incl-table-display);
+	@include show-and-hide-for-modernizr-test( 'flag-' + $flag , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
 }
 
 //Create the Modernizr-classes for 'show-for-lang-YY' and 'hide-for-lang-YY' the language-codes YY in $lang-modernizr-list
 @each $lang, $incl-no-selector in $lang-modernizr-list {
-	@include show-and-hide-for-modernizr-test( 'lang-' + $lang , 'html', $incl-no-selector, $display-value, $incl-table-display);
+	@include show-and-hide-for-modernizr-test( 'lang-' + $lang , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
 }
 
