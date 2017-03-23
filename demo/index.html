@@ -1,57 +1,67 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="da" style="font-size: 100%">
-<head>
-	<title>fcoo.dk - lang-flag-icon - Demo</title>
-	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta http-equiv='x-dns-prefetch-control' content='on'>
+    <head>
+	    <title>fcoo.dk - lang-flag-icon - Demo</title>
+	    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv='x-dns-prefetch-control' content='on'>
 
-	<meta name='copyright' content='FCOO'>
-	<meta name='owner' content='FCOO'>
+        <meta name='copyright' content='FCOO'>
+	    <meta name='owner' content='FCOO'>
 
-  <link  href="bower_components.css" rel="stylesheet">	
-  <link  href="demo.css" rel="stylesheet">	
-	<style>
-		div.big {
-			display:inline-block; 
-			width:100px; 
-			height:75px;
-			border: 1px solid black;
-		}
-	</style>
-</head>
+        <link  href="bower_components.css" rel="stylesheet">	
+        <link  href="css/font-awesome.css" rel="stylesheet">	
+        <link  href="demo.css" rel="stylesheet">	
+	    <style>
+		    div.big {
+			    display:inline-block; 
+    			width:100px; 
+	    		height:75px;
+		    	border: 1px solid black;
+    		}
+	    	div.big-square {
+		    	display:inline-block; 
+			    width:75px; 
+    			height:75px;
+	    		border: 1px solid black;
+		    }
+	    </style>
+    </head>
 
-<body>
-	<div class="big flag-icon-background flag-icon-dk"></div>&nbsp;
-	<div class="big flag-icon-background flag-icon-gl"></div>&nbsp;
-	<div class="big flag-icon-background flag-icon-fo"></div>
-	<hr>
-	<button onClick="setFlag('dk')"><i class="flag-icon flag-icon-dk"></i> This is Denmark</button><br>
-	<button onClick="setLang('da')"><i class="flag-icon lang-icon-da"></i> This is Danish</button><br>
-	<button onClick="setFlag('gl')"><i class="flag-icon flag-icon-gl"></i> This is Greenland</button><br>
-	<button onClick="setLang('kl')"><i class="flag-icon lang-icon-kl"></i> This is Kalaallisut</button>
-	<hr>
+    <body>
+	    <div class="big        fa-flag-dk"></div>&nbsp;
+	    <div class="big-square fa-flag-dk fa-flag-squared"></div>&nbsp;
 
-	<code class="show-for-flag-dk">class="show-for-flag-dk"</code><br>
-	<code class="hide-for-flag-dk">class="hide-for-flag-dk"</code><br>
-	<code class="show-for-flag-gl">class="show-for-flag-gl"</code><br>
-	<code class="hide-for-flag-gl">class="hide-for-flag-gl"</code><br>
+    	<div class="big        fa-flag-gl"></div>&nbsp;
+	    <div class="big-square fa-flag-gl fa-flag-squared"></div>&nbsp;
 
-	<code class="show-for-lang-da">class="show-for-lang-da"</code><br>
-	<code class="hide-for-lang-da">class="hide-for-lang-da"</code><br>
-	<code class="show-for-lang-kl">class="show-for-lang-kl"</code><br>
-	<code class="hide-for-lang-kl">class="hide-for-lang-kl"</code><br>
+    	<div class="big        fa-flag-fo"></div>&nbsp;
+    	<div class="big-square fa-flag-fo fa-flag-squared"></div>
+    	<hr>
+	    <button onClick="setFlag('dk')"><i class="fa fa-flag-dk"></i> This is Denmark</button><br>
+    	<button onClick="setLang('da')"><i class="fa fa-lang-da"></i> This is Danish</button><br>
+	    <button onClick="setFlag('gl')"><i class="fa fa-flag-gl"></i> This is Greenland</button><br>
+    	<button onClick="setLang('kl')"><i class="fa fa-lang-kl"></i> This is Kalaallisut</button>
+	    <hr>
 
-	
+    	<code class="show-for-flag-dk">class="show-for-flag-dk"</code><br>
+	    <code class="hide-for-flag-dk">class="hide-for-flag-dk"</code><br>
+    	<code class="show-for-flag-gl">class="show-for-flag-gl"</code><br>
+	    <code class="hide-for-flag-gl">class="hide-for-flag-gl"</code><br>
 
-	<script src="bower_components.js"></script>
-	<script src="../src/lang-flag-icon.js"></script>
-	<script src="modernizr-custom.js"></script>
+    	<code class="show-for-lang-da">class="show-for-lang-da"</code><br>
+	    <code class="hide-for-lang-da">class="hide-for-lang-da"</code><br>
+    	<code class="show-for-lang-kl">class="show-for-lang-kl"</code><br>
+	    <code class="hide-for-lang-kl">class="hide-for-lang-kl"</code><br>
 
-	<script>
-		window.langFlag = new window.LangFlag();
-		function setFlag( flag ) { window.langFlag.setFlag( flag ); }
-		function setLang( lang ) { window.langFlag.setLang( lang ); }
-	</script>
-</body>
+	    <script src="bower_components.js"></script>
+	    <script src="../src/lang-flag-icon.js"></script>
+	    <script src="modernizr-custom.js"></script>
+
+	    <script>
+		    window.langFlag = new window.LangFlag();
+		    function setFlag( flag ) { window.langFlag.setFlag( flag ); }
+		    function setLang( lang ) { window.langFlag.setLang( lang ); }
+	    </script>
+    </body>
 </html>

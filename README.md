@@ -11,22 +11,22 @@ This package contains of a JavaScript object `LangFlag`, and a scss-file `_lang-
 [Modernizr] must be included.
 
 ### Icons
-Creates css for for elements to display flags representing a countrify and/or a language
+Creates css for for elements to display flags representing a country and/or a language
 
-Add (`flag-icon` | `flag-icon-background`) and (`flag-icon-XX` | `lang-icon-YY`) and [`flag-icon-squared`] where
+Add [`fa`] and (`fa-flag-XX` | `fa-lang-YY`) and [`fa-flag-squared` | `fa-lang-squared`] where
 
-- `flag-icon` is for inline elements (eq. `<span>`)
-- `flag-icon-background` is block elements
-- `flag-icon-XX` for the flag for country-code *XX* where *XX* is the 2-charts country-code given by [ISO 3166-1-alpha-2 2-char codes for countries](https://www.iso.org/obp/ui/#search)
-- `lang-icon-YY` for the flag associated with language-code *YY* where *YY* is the 2-charts language-code given by [ISO 639-2 codes for languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)
-- `flag-icon-squared` (optional) will give a square flag instead of the default 4/3-size
+- `fa` is for inline elements (eq. `<i>` or `<span>`)
+- `fa-flag-XX` for the flag for country-code *XX* where *XX* is the 2-charts country-code given by [ISO 3166-1-alpha-2 2-char codes for countries](https://www.iso.org/obp/ui/#search)
+- `fa-lang-YY` for the flag associated with language-code *YY* where *YY* is the 2-charts language-code given by [ISO 639-2 codes for languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)
+- `fa-flag-squared`  or `fa-lang-squared` (optional) will give a square flag instead of the default 4/3-size
+
 
 **Example**
 
-	<button><i class="flag-icon flag-icon-dk"></i>This is Denmark</button>
-	<button><i class="flag-icon lang-icon-da"></i>This is Danish</button>
-	<button><i class="flag-icon flag-icon-de"></i>This is Germany</button>
-	<button><i class="flag-icon lang-icon-de"></i>This is German</button>
+	<button><i class="fa fa-flag-dk"></i>This is Denmark</button>
+	<button><i class="fa fa-lang-da"></i>This is Danish</button>
+	<button><i class="fa fa-flag-de"></i>This is Germany</button>
+	<button><i class="fa fa-lang-de"></i>This is German</button>
 
 ### Modernizr
 Create (optional) [Modernizr]-classes to display or hide elements when a country and/or language is 'selected' 

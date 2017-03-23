@@ -1,10 +1,10 @@
 /***********************************************
-	lang-flag-icon.scss, 
+    lang-flag-icon.scss, 
 
-	(c) 2016, FCOO
+    (c) 2016, FCOO
 
-	https://github.com/FCOO/lang-flag-icon
-	https://github.com/FCOO
+    https://github.com/FCOO/lang-flag-icon
+    https://github.com/FCOO
 
 
 ************************************************/
@@ -16,11 +16,14 @@
 //************************************************************************************************************************************
 //VARIABLES
 
+//$icon-dim = The dimention of the flag-icons
+$icon-dim: 0.9em !default; 
+
 //$include-squared = if true css for squared flags is also created
 $include-squared: false !default; 
 
-$lfi-display-value			: '' !default;		// Value for display:... when element is visible. Default = '' => no class created.
-$lfi-incl-table-display	: true !default; //	if true classes for table-elements (TABLE, TR,TD etc.) are included 
+$lfi-display-value     : '' !default;   // Value for display:... when element is visible. Default = '' => no class created.
+$lfi-incl-table-display: true !default; // if true classes for table-elements (TABLE, TR,TD etc.) are included 
 
 //$flag-list = list of country-codes (XX) where there will be classes flag-icon-XX
 $flag-list: dk, fo, gl !default; 
@@ -28,127 +31,135 @@ $flag-list: dk, fo, gl !default;
 //$flag-modernizr-list = list of country-codes (XX) where modernizr-classes are created (show-for-flag-XX, hide-for-flag-XX) 
 //If the second parameter is true then the classes show-for-no-flag-XX and hide-for-no-flag-XX are also created
 $flag-modernizr-list: (
-	dk: false,
-	fo: false, 
-	gl: false
+    dk: false,
+    fo: false, 
+    gl: false
 )  !default; 
 
 
 //$lang-list = list of language-code (YY) and the selected flag/country-codes (XX)
 $lang-list: (
-  da: dk,	//Danish -> Denmark
-  en: gb,	//English -> UK
-  de: de,	//German -> Germany
-  sv: se,	//Swedish -> Sweden
-  no: no,	//Norwegian -> Norway
-  fo: fo,	//Faroese -> Faroe Islands
-  kl: gl	//Kalaallisut/Greenlandic -> Greenland
+  da: dk, //Danish -> Denmark
+  en: gb, //English -> UK
+  de: de, //German -> Germany
+  sv: se, //Swedish -> Sweden
+  no: no, //Norwegian -> Norway
+  fo: fo, //Faroese -> Faroe Islands
+  kl: gl  //Kalaallisut/Greenlandic -> Greenland
 ) !default;
 
 //$lang-modernizr-list = list of language-codes (YY) where modernizr-classes are created (show-for-lang-YY, hide-for-lang-YY) 
 //If the second parameter is true then the classes show-for-no-lang-YY and hide-for-no-lang-YY are also created
 $lang-modernizr-list: (
-	da: false,
-	en: false,
-	fo: false,
-	kl: false
+    da: false,
+    en: false,
+    fo: false,
+    kl: false
 ) !default; 
 
 
-//************************************************************************************************************************************
-//MIXIN
-//@mixin flag-icon-background from flag-icon-css
-@mixin flag-icon-background {
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.flag-icon-background {
-  @include flag-icon-background();
-}
-
-//.flag-icon from flag-icon-css
-.flag-icon {
-  @include flag-icon-background();
-  position: relative;
-  display: inline-block;
-  width: (4 / 3) * 1em;
-  line-height: 1em;
-  &:before {
-    content: '\00a0';
-  }
-  &.flag-icon-squared {
-    width: 1em;
-  }
-}
-
-
-//mixin lang-flag-icon($country, $id: $country ) is a extended version of flag-icon($country) from flag-icon-css
+//*******************************************************************************
+//MIXIN lang-flag-icon($country, $id: $country ) is a extended version of flag-icon($country) from flag-icon-css
+//*******************************************************************************
 @mixin lang-flag-icon($country, $id: $country, $prefix: flag ) {
-  .#{$prefix}-icon-#{$id} {
-		@extend %#{$country}_4x3;
+  .fa-#{$prefix}-#{$id} {
+        @extend %#{$country}_4x3;
 
-		@if $include-squared {
-			&.#{$prefix}-icon-squared {
-				@extend %#{$country}_1x1;
-			}
+        @if $include-squared {
+            //&.#{$prefix}-icon-squared {
+            &.fa-lang-squared, &.fa-flag-squared {
+                @extend %#{$country}_1x1;
+            }
     }
   }
 }
 
+//*******************************************************************************
+//Create classes fa-flag-XX for the country-codes XX and fa-lang-YY for the language-codes YY 
+//*******************************************************************************
+[class^="fa-flag-"], [class*=" fa-flag-"],
+[class^="fa-lang-"], [class*=" fa-lang-"] {
 
-//************************************************************************************************************************************
-//BUILD
+    //Standard style
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
 
-//Create $flag-list as .lang-flag-icon-flag { font-family:".."}
-$list-str: '';
-@each $flag in $flag-list {
-	$list-str: $list-str + $flag;
+    //Style when the flag is a fontawesome icon
+    &.fa {
+        position: relative;
+        display: inline-block;
+        width: (4 / 3) * $icon-dim;
+        line-height: 1em; //$icon-dim; //TODO: test if it should be 1em;
+        &:before {
+            content: '\00a0';
+        }
+
+        //Square size icon
+        &.fa-lang-squared, &.fa-flag-squared {
+            width: $icon-dim;
+        }
+    }
+
 }
-.lang-flag-icon-flag	{	font-family: #{$list-str};	}
-
-//Create $lang-list as .lang-flag-icon-lang { font-family:".."}
-$list-str: '';
-@each $lang, $flag in $lang-list {
-	$list-str: $list-str + $lang;
-}
-.lang-flag-icon-lang	{	font-family: #{$list-str};	}
-
-//Create $flag-modernizr-list as .lang-flag-icon-flag-modernizr { font-family:".."}
-$list-str: '';
-@each $flag, $dummy in $flag-modernizr-list {
-	$list-str: $list-str + $flag;
-}
-.lang-flag-icon-flag-modernizr	{	font-family: #{$list-str};	}
-
-//Create $lang-modernizr-list as .lang-flag-icon-lang-modernizr { font-family:".."}
-$list-str: '';
-@each $lang, $dummy in $lang-modernizr-list {
-	$list-str: $list-str + $lang;
-}
-.lang-flag-icon-lang-modernizr	{	font-family: #{$list-str};	}
-
 
 //Create the classes flag-icon-XX for country-codes XX
 @each $flag in $flag-list {
-	@include lang-flag-icon( $flag );
+    @include lang-flag-icon( $flag );
 }
 
 //Create the classes lang-icon-XX for language-codes YY
 @each $lang, $flag in $lang-list {
-	@include lang-flag-icon( $flag, $lang, lang );
+    @include lang-flag-icon( $flag, $lang, lang );
 }
 
 
+//*******************************************************************************
 //Create the Modernizr-classes for 'show-for-flag-XX' and 'hide-for-flag-XX' the country-codes XX in $flag-modernizr-list
 //using @mixin show-and-hide-for-modernizr-test( $modernizr-test , $parent-element-type: '', $incl-no-selector: true ){
+//*******************************************************************************
 @each $flag, $incl-no-selector in $flag-modernizr-list {
-	@include show-and-hide-for-modernizr-test( 'flag-' + $flag , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
+    @include show-and-hide-for-modernizr-test( 'flag-' + $flag , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
 }
 
 //Create the Modernizr-classes for 'show-for-lang-YY' and 'hide-for-lang-YY' the language-codes YY in $lang-modernizr-list
 @each $lang, $incl-no-selector in $lang-modernizr-list {
-	@include show-and-hide-for-modernizr-test( 'lang-' + $lang , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
+    @include show-and-hide-for-modernizr-test( 'lang-' + $lang , 'html', $incl-no-selector, $lfi-display-value, $lfi-incl-table-display);
 }
 
+//*******************************************************************************
+//Create 'dummy'-classes to be used by the LangFlag-object to read the avaiable languages and flags
+//*******************************************************************************
+//Create $flag-list as .lang-flag-icon-flag { font-family:".."}
+$list-str: '';
+@each $flag in $flag-list {
+    $list-str: $list-str + $flag;
+}
+.lang-flag-icon-flag{ 
+    font-family: #{$list-str}; 
+}
+
+//Create $lang-list as .lang-flag-icon-lang { font-family:".."}
+$list-str: '';
+@each $lang, $flag in $lang-list {
+    $list-str: $list-str + $lang;
+}
+.lang-flag-icon-lang { 
+    font-family: #{$list-str};
+}
+
+//Create $flag-modernizr-list as .lang-flag-icon-flag-modernizr { font-family:".."}
+$list-str: '';
+@each $flag, $dummy in $flag-modernizr-list {
+    $list-str: $list-str + $flag;
+}
+.lang-flag-icon-flag-modernizr{
+    font-family: #{$list-str};
+}
+
+//Create $lang-modernizr-list as .lang-flag-icon-lang-modernizr { font-family:".."}
+$list-str: '';
+@each $lang, $dummy in $lang-modernizr-list {
+    $list-str: $list-str + $lang;
+}
+.lang-flag-icon-lang-modernizr    {    font-family: #{$list-str};    }

@@ -4,81 +4,94 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
 
 */
 /***********************************************
-	lang-flag-icon.scss, 
+    lang-flag-icon.scss, 
 
-	(c) 2016, FCOO
+    (c) 2016, FCOO
 
-	https://github.com/FCOO/lang-flag-icon
-	https://github.com/FCOO
+    https://github.com/FCOO/lang-flag-icon
+    https://github.com/FCOO
 
 
 ************************************************/
 /* Compiled by grunt-svg-extend */
-.lang-icon-de {
+.fa-lang-de {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fc0%22%20d%3D%22M0%20320h640v160.002H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M0%200h640v160H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23f00%22%20d%3D%22M0%20160h640v160H0z%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
-.flag-icon-dk, .lang-icon-da {
+.fa-flag-dk, .fa-lang-da {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%3E%20%20%3Cpath%20fill%3D%22%23c60c30%22%20d%3D%22M0%200h640.1v480H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M205.714%200h68.57v480h-68.57z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%20205.714h640.1v68.57H0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
 
-.flag-icon-fo, .lang-icon-fo {
+.fa-flag-fo, .fa-lang-fo {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-78.015%2032h640v480h-640z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url(%23a)%22%20transform%3D%22translate(78.02%20-32)%22%20stroke-width%3D%220%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M-78.015%2032h663.91v480h-663.91z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-76.033%20218.67h185.9V32h106.23v186.67h371.79v106.67h-371.79v186.67h-106.23V325.34h-185.9V218.67z%22%20fill%3D%22%23003897%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-76.033%20245.33h212.45V32h53.113v213.33h398.35v53.333H189.53v213.33h-53.113v-213.33h-212.45V245.33z%22%20fill%3D%22%23d72828%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
-.lang-icon-en {
+.fa-lang-en {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-85.333%200h682.67v512h-682.67z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20clip-path%3D%22url(%23a)%22%20transform%3D%22matrix(.94%200%200%20.94%2080%200)%22%3E%20%20%20%20%3Cg%20stroke-width%3D%221pt%22%3E%20%20%20%20%20%20%3Cpath%20fill%3D%22%23006%22%20d%3D%22M-256%200H768.02v512.01H-256z%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M-256%200v57.244l909.535%20454.768H768.02V454.77L-141.515%200H-256zM768.02%200v57.243L-141.515%20512.01H-256v-57.243L653.535%200H768.02z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M170.675%200v512.01h170.67V0h-170.67zM-256%20170.67v170.67H768.02V170.67H-256z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M-256%20204.804v102.402H768.02V204.804H-256zM204.81%200v512.01h102.4V0h-102.4zM-256%20512.01L85.34%20341.34h76.324l-341.34%20170.67H-256zM-256%200L85.34%20170.67H9.016L-256%2038.164V0zm606.356%20170.67L691.696%200h76.324L426.68%20170.67h-76.324zM768.02%20512.01L426.68%20341.34h76.324L768.02%20473.848v38.162z%22%20fill%3D%22%23c00%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2Fg%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
-.flag-icon-gl, .lang-icon-kl {
+.fa-flag-gl, .fa-lang-kl {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M-62.883%200h682.67v512h-682.67z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url(%23a)%22%20transform%3D%22matrix(.94%200%200%20.94%2058.95%200)%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M661.1%20512h-766.65V0H661.1z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23df0000%22%20d%3D%22M661.1%20512h-766.65V256.45H661.1zM347.57%20255.85c0-86.577-70.184-156.766-156.763-156.766-86.576%200-156.765%2070.185-156.765%20156.765%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M347.57%20255.75c0%2086.577-70.184%20156.766-156.763%20156.766-86.576%200-156.765-70.185-156.765-156.765%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
-.lang-icon-no {
+.fa-lang-no {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221%22%3E%20%20%3Cpath%20fill%3D%22%23ef2b2d%22%20d%3D%22M0%200h640v480H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M180%200h120v480H180z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%20180h640v120H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23002868%22%20d%3D%22M210%200h60v480h-60z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23002868%22%20d%3D%22M0%20210h640v60H0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
 
-.lang-icon-sv {
+.fa-lang-sv {
   background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20id%3D%22svg589%22%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22480%22%20width%3D%22640%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%20%3Cmetadata%20id%3D%22metadata3065%22%3E%20%20%3Crdf%3ARDF%3E%20%20%20%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%20%20%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%20%20%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%3E%3C%2Fdc%3Atype%3E%20%20%20%3C%2Fcc%3AWork%3E%20%20%3C%2Frdf%3ARDF%3E%20%3C%2Fmetadata%3E%20%3Cdefs%20id%3D%22defs591%22%3E%20%20%3CclipPath%20id%3D%22clipPath15333%22%20clipPathUnits%3D%22userSpaceOnUse%22%3E%20%20%20%3Crect%20id%3D%22rect15335%22%20fill-opacity%3D%220.67%22%20height%3D%22512%22%20width%3D%22682.67%22%20y%3D%22.0000090621%22%20x%3D%22-53.421%22%3E%3C%2Frect%3E%20%20%3C%2FclipPath%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22flag%22%20clip-path%3D%22url(%23clipPath15333)%22%20transform%3D%22matrix(.9375%200%200%20.9375%2050.082%20-.0000084958)%22%3E%20%20%3Cg%20id%3D%22g558%22%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%20transform%3D%22matrix(2.9257%200%200%202.9257%20-745.33%20-969.48)%22%3E%20%20%20%3Crect%20id%3D%22rect552%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22331.47%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect553%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22436.36%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect554%22%20height%3D%2235%22%20width%3D%2287.5%22%20y%3D%22401.43%22%20x%3D%22213.36%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect556%22%20height%3D%22175%22%20width%3D%2235%22%20y%3D%22331.37%22%20x%3D%22300.5%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect557%22%20height%3D%2235%22%20width%3D%22157.5%22%20y%3D%22401.44%22%20x%3D%22334.39%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect558%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22436.37%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect559%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22331.47%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 
 /* Compiled by grunt-svg-extend */
-.flag-icon-background {
+.fa-lang-de.fa-lang-squared, .fa-lang-de.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221%22%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fc0%22%20d%3D%22M0%20341.338h512.005v170.67H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M0%200h512.005v170.67H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23f00%22%20d%3D%22M0%20170.67h512.005v170.668H0z%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.fa-flag-dk.fa-lang-squared, .fa-flag-dk.fa-flag-squared, .fa-lang-da.fa-lang-squared, .fa-lang-da.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%3E%20%20%3Cpath%20fill%3D%22%23c60c30%22%20d%3D%22M0%200h512.1v512H0z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M144%200h73.143v512H144z%22%3E%3C%2Fpath%3E%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%20219.43h512.1v73.142H0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.fa-flag-fo.fa-lang-squared, .fa-flag-fo.fa-flag-squared, .fa-lang-fo.fa-lang-squared, .fa-lang-fo.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M0%200h512v512H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20clip-path%3D%22url(%23a)%22%20fill-rule%3D%22evenodd%22%20stroke-width%3D%220%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M-78.015%200h708.18v512h-708.18z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-75.9%20199.11h198.29V0H235.7v199.11h396.58v113.78H235.7V512H122.39V312.89H-75.9V199.11z%22%20fill%3D%22%23003897%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M-75.9%20227.56h226.62V0h56.653v227.56h424.91v56.89h-424.91v227.56H150.72V284.45H-75.9v-56.89z%22%20fill%3D%22%23d72828%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.fa-lang-en.fa-lang-squared, .fa-lang-en.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M250%200h500v500H250z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20clip-path%3D%22url(%23a)%22%20transform%3D%22translate(-256)%20scale(1.024)%22%3E%20%20%20%20%3Cg%20stroke-width%3D%221pt%22%3E%20%20%20%20%20%20%3Cpath%20fill%3D%22%23006%22%20d%3D%22M0%200h1000.02v500.01H0z%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200v55.903l888.218%20444.11h111.802V444.11L111.802.003H0zm1000.02%200v55.9L111.802%20500.01H0v-55.9L888.218%200h111.802z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M416.675%200v500.01h166.67V0h-166.67zM0%20166.67v166.67h1000.02V166.67H0z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20200.004v100.002h1000.02V200.004H0zM450.01%200v500.01h100V0h-100zM0%20500.01l333.34-166.67h74.535L74.535%20500.01H0zM0%200l333.34%20166.67h-74.535L0%2037.27V0zm592.145%20166.67L925.485%200h74.535L666.68%20166.67h-74.535zm407.875%20333.34L666.68%20333.34h74.535l258.805%20129.403v37.267z%22%20fill%3D%22%23c00%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2Fg%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.fa-flag-gl.fa-lang-squared, .fa-flag-gl.fa-flag-squared, .fa-lang-kl.fa-lang-squared, .fa-lang-kl.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221%22%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.67%22%20d%3D%22M0%200h512v512H0z%22%3E%3C%2Fpath%3E%20%20%20%20%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url(%23a)%22%3E%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M661.1%20512h-766.65V0H661.1z%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20fill%3D%22%23df0000%22%20d%3D%22M661.1%20512h-766.65V256.45H661.1zM347.57%20255.85a156.764%20156.764%200%201%201-313.528%200%22%3E%3C%2Fpath%3E%20%20%20%20%3Cpath%20d%3D%22M347.57%20255.75a156.764%20156.764%200%201%201-313.528%200%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.fa-lang-no.fa-lang-squared, .fa-lang-no.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221%22%3E%20%20%3Cpath%20d%3D%22M0%200h512v512H0z%22%20fill%3D%22%23ef2b2d%22%3E%3C%2Fpath%3E%20%20%3Cpath%20d%3D%22M128%200h128v512H128z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%3Cpath%20d%3D%22M0%20192h512v128H0z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%20%3Cpath%20d%3D%22M160%200h64v512h-64z%22%20fill%3D%22%23002868%22%3E%3C%2Fpath%3E%20%20%3Cpath%20d%3D%22M0%20224h512v64H0z%22%20fill%3D%22%23002868%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.fa-lang-sv.fa-lang-squared, .fa-lang-sv.fa-flag-squared {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20id%3D%22svg589%22%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22512%22%20width%3D%22512%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%20%3Cmetadata%20id%3D%22metadata3065%22%3E%20%20%3Crdf%3ARDF%3E%20%20%20%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%20%20%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%20%20%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%3E%3C%2Fdc%3Atype%3E%20%20%20%3C%2Fcc%3AWork%3E%20%20%3C%2Frdf%3ARDF%3E%20%3C%2Fmetadata%3E%20%3Cdefs%20id%3D%22defs591%22%3E%20%20%3CclipPath%20id%3D%22clipPath5088%22%20clipPathUnits%3D%22userSpaceOnUse%22%3E%20%20%20%3Crect%20id%3D%22rect5090%22%20fill-opacity%3D%220.67%22%20height%3D%22490.73%22%20width%3D%22490.73%22%20y%3D%227.3057%22%20x%3D%22118.97%22%3E%3C%2Frect%3E%20%20%3C%2FclipPath%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22flag%22%20clip-path%3D%22url(%23clipPath5088)%22%20transform%3D%22matrix(1.0433%200%200%201.0433%20-124.12%20-7.6224)%22%3E%20%20%3Cg%20id%3D%22g558%22%20fill-rule%3D%22evenodd%22%20stroke-width%3D%221pt%22%20transform%3D%22matrix(2.8042%200%200%202.8042%20-595.4%20-921.91)%22%3E%20%20%20%3Crect%20id%3D%22rect552%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22331.47%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect553%22%20height%3D%2270%22%20width%3D%2287.5%22%20y%3D%22436.36%22%20x%3D%22213.36%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect554%22%20height%3D%2235%22%20width%3D%2287.5%22%20y%3D%22401.43%22%20x%3D%22213.36%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect556%22%20height%3D%22175%22%20width%3D%2235%22%20y%3D%22331.37%22%20x%3D%22300.5%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect557%22%20height%3D%2235%22%20width%3D%22157.5%22%20y%3D%22401.44%22%20x%3D%22334.39%22%20fill%3D%22%23fecc00%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect558%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22436.37%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%20%3Crect%20id%3D%22rect559%22%20height%3D%2270%22%20width%3D%22157.5%22%20y%3D%22331.47%22%20x%3D%22335.47%22%20fill%3D%22%23006aa7%22%3E%3C%2Frect%3E%20%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+[class^="fa-flag-"], [class*=" fa-flag-"],
+[class^="fa-lang-"], [class*=" fa-lang-"] {
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
 }
-
-.flag-icon {
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
+[class^="fa-flag-"].fa, [class*=" fa-flag-"].fa,
+[class^="fa-lang-"].fa, [class*=" fa-lang-"].fa {
   position: relative;
   display: inline-block;
-  width: 1.33333em;
+  width: 1.2em;
   line-height: 1em;
 }
-.flag-icon:before {
+[class^="fa-flag-"].fa:before, [class*=" fa-flag-"].fa:before,
+[class^="fa-lang-"].fa:before, [class*=" fa-lang-"].fa:before {
   content: '\00a0';
 }
-.flag-icon.flag-icon-squared {
-  width: 1em;
-}
-
-.lang-flag-icon-flag {
-  font-family: dkfogl;
-}
-
-.lang-flag-icon-lang {
-  font-family: daendesvnofokl;
-}
-
-.lang-flag-icon-flag-modernizr {
-  font-family: dkfogl;
-}
-
-.lang-flag-icon-lang-modernizr {
-  font-family: daenfokl;
+[class^="fa-flag-"].fa.fa-lang-squared, [class^="fa-flag-"].fa.fa-flag-squared, [class*=" fa-flag-"].fa.fa-lang-squared, [class*=" fa-flag-"].fa.fa-flag-squared,
+[class^="fa-lang-"].fa.fa-lang-squared,
+[class^="fa-lang-"].fa.fa-flag-squared, [class*=" fa-lang-"].fa.fa-lang-squared, [class*=" fa-lang-"].fa.fa-flag-squared {
+  width: 0.9em;
 }
 
 html.flag-dk .hide-for-flag-dk {
@@ -359,6 +372,22 @@ html.no-lang-kl tr.hide-for-lang-kl {
 html.no-lang-kl td.hide-for-lang-kl,
 html.no-lang-kl th.hide-for-lang-kl {
   display: table-cell;
+}
+
+.lang-flag-icon-flag {
+  font-family: dkfogl;
+}
+
+.lang-flag-icon-lang {
+  font-family: daendesvnofokl;
+}
+
+.lang-flag-icon-flag-modernizr {
+  font-family: dkfogl;
+}
+
+.lang-flag-icon-lang-modernizr {
+  font-family: daenfokl;
 }
 
 /*# sourceMappingURL=demo.css.map */
