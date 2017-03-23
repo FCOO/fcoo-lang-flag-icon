@@ -19,6 +19,9 @@
 //$icon-dim = The dimention of the flag-icons
 $icon-dim: 0.9em !default; 
 
+$icon-height: $icon-dim;
+$icon-width : (4 / 3) * $icon-height;
+
 //$include-squared = if true css for squared flags is also created
 $include-squared: false !default; 
 
@@ -89,15 +92,19 @@ $lang-modernizr-list: (
     &.fa {
         position: relative;
         display: inline-block;
-        width: (4 / 3) * $icon-dim;
-        line-height: 1em; //$icon-dim; //TODO: test if it should be 1em;
+
+        background-size: $icon-width $icon-height;
+        width: $icon-width;
+        line-height: 1em; 
+
         &:before {
             content: '\00a0';
         }
 
         //Square size icon
         &.fa-lang-squared, &.fa-flag-squared {
-            width: $icon-dim;
+            width: $icon-height;
+            background-size: $icon-height  $icon-height;
         }
     }
 

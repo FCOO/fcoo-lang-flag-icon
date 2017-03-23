@@ -81,6 +81,7 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
 [class^="fa-lang-"].fa, [class*=" fa-lang-"].fa {
   position: relative;
   display: inline-block;
+  background-size: 1.2em 0.9em;
   width: 1.2em;
   line-height: 1em;
 }
@@ -92,6 +93,7 @@ DEMO.scss for github/fcoo/lang-flag-icon/demo/index.html
 [class^="fa-lang-"].fa.fa-lang-squared,
 [class^="fa-lang-"].fa.fa-flag-squared, [class*=" fa-lang-"].fa.fa-lang-squared, [class*=" fa-lang-"].fa.fa-flag-squared {
   width: 0.9em;
+  background-size: 0.9em 0.9em;
 }
 
 html.flag-dk .hide-for-flag-dk {
