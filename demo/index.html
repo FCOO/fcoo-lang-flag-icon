@@ -9,19 +9,17 @@
         <meta name='copyright' content='FCOO'>
 	    <meta name='owner' content='FCOO'>
 
-        <link  href="bower_components.css" rel="stylesheet">	
-        <link  href="css/font-awesome.css" rel="stylesheet">	
-        <link  href="demo.css" rel="stylesheet">	
+        <link  href="../src/lang-flag-icon.css" rel="stylesheet">
 	    <style>
 		    div.big {
-			    display:inline-block; 
-    			width:100px; 
+			    display:inline-block;
+    			width:100px;
 	    		height:75px;
 		    	border: 1px solid black;
     		}
 	    	div.big-square {
-		    	display:inline-block; 
-			    width:75px; 
+		    	display:inline-block;
+			    width:75px;
     			height:75px;
 	    		border: 1px solid black;
 		    }
@@ -38,30 +36,17 @@
     	<div class="big        fa-flag-fo"></div>&nbsp;
     	<div class="big-square fa-flag-fo fa-flag-squared"></div>
     	<hr>
-	    <button style="font-size:20px" onClick="setFlag('dk')"><i class="fa fa-flag-dk"></i> This is Denmark</button><br>
-    	<button onClick="setLang('da')"><i class="fa fa-lang-da"></i> This is Danish</button><br>
-	    <button style="font-size:20px" onClick="setFlag('gl')"><i class="fa fa-flag-gl"></i> This is Greenland</button><br>
-    	<button onClick="setLang('kl')"><i class="fa fa-lang-kl"></i> This is Kalaallisut</button>
-	    <hr>
-
-    	<code class="show-for-flag-dk">class="show-for-flag-dk"</code><br>
-	    <code class="hide-for-flag-dk">class="hide-for-flag-dk"</code><br>
-    	<code class="show-for-flag-gl">class="show-for-flag-gl"</code><br>
-	    <code class="hide-for-flag-gl">class="hide-for-flag-gl"</code><br>
-
-    	<code class="show-for-lang-da">class="show-for-lang-da"</code><br>
-	    <code class="hide-for-lang-da">class="hide-for-lang-da"</code><br>
-    	<code class="show-for-lang-kl">class="show-for-lang-kl"</code><br>
-	    <code class="hide-for-lang-kl">class="hide-for-lang-kl"</code><br>
-
-	    <script src="bower_components.js"></script>
-	    <script src="../src/lang-flag-icon.js"></script>
-	    <script src="modernizr-custom.js"></script>
-
-	    <script>
-		    window.langFlag = new window.LangFlag();
-		    function setFlag( flag ) { window.langFlag.setFlag( flag ); }
-		    function setLang( lang ) { window.langFlag.setLang( lang ); }
-	    </script>
+	    <button style="font-size:20px"><i class="fa fa-flag-dk"></i> This is Denmark</button><br>
+	    <button style="font-size:20px"><i class="fa fa-flag-gl"></i> This is Greenland</button><br>
+        <hr>
+        <script>
+            var countryList = ['ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar', 'as', 'at', 'au', 'aw', 'ax', 'az', 'ba', 'bb', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj', 'bl', 'bm', 'bn', 'bo', 'bq', 'br', 'bs', 'bt', 'bv', 'bw', 'by', 'bz', 'ca', 'cc', 'cd', 'cf', 'cg', 'ch', 'ci', 'ck', 'cl', 'cm', 'cn', 'co', 'cr', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'de', 'dj', 'dk', 'dm', 'do', 'dz', 'ec', 'ee', 'eg', 'eh', 'er', 'es', 'et', 'eu', 'fi', 'fj', 'fk', 'fm', 'fo', 'fr', 'ga', 'gb-eng','gb-sct','gb-wls','gb', 'gd', 'ge', 'gf', 'gg', 'gh', 'gi', 'gl', 'gm', 'gn', 'gp', 'gq', 'gr', 'gs', 'gt', 'gu', 'gw', 'gy', 'hk', 'hm', 'hn', 'hr', 'ht', 'hu', 'id', 'ie', 'il', 'im', 'in', 'io', 'iq', 'ir', 'is', 'it', 'je', 'jm', 'jo', 'jp', 'ke', 'kg', 'kh', 'ki', 'km', 'kn', 'kp', 'kr', 'kw', 'ky', 'kz', 'la', 'lb', 'lc', 'li', 'li', 'st', 'lk', 'lr', 'ls', 'lt', 'lu', 'lv', 'ly', 'ma', 'mc', 'md', 'me', 'mf', 'mg', 'mh', 'mk', 'ml', 'mm', 'mn', 'mo', 'mp', 'mq', 'mr', 'ms', 'mt', 'mu', 'mv', 'mw', 'mx', 'my', 'mz', 'na', 'nc', 'ne', 'nf', 'ng', 'ni', 'nl', 'no', 'np', 'nr', 'nu', 'nz', 'om', 'pa', 'pe', 'pf', 'pg', 'ph', 'pk', 'pl', 'pm', 'pn', 'pr', 'ps', 'pt', 'pw', 'py', 'qa', 're', 'ro', 'rs', 'ru', 'rw', 'sa', 'sb', 'sc', 'sd', 'se', 'sg', 'sh', 'si', 'sj', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'ss', 'st', 'sv', 'sx', 'sy', 'sz', 'tc', 'td', 'tf', 'tg', 'th', 'tj', 'tk', 'tl', 'tm', 'tn', 'to', 'tr', 'tt', 'tv', 'tw', 'tz', 'ua', 'ug', 'um', 'un', 'us', 'uy', 'uz', 'va', 'vc', 've', 'vg', 'vi', 'vn', 'vu', 'wf', 'ws', 'ye', 'yt', 'za', 'zm', 'zw', 'zz'];
+            for (var i=0; i<countryList.length; i++){
+                var div = document.createElement("div");
+                div.className = 'fa fa-flag-'+countryList[i];
+                div.style = 'margin:4px; font-size: 3rem';
+                document.body.appendChild(div);
+            }
+        </script>
     </body>
 </html>
