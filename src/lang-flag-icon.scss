@@ -17,8 +17,9 @@ $icon-dim: 0.9em !default;
 $icon-height: $icon-dim;
 $icon-width : (4 / 3) * $icon-height;
 
-$path-1x1: "images/1x1/";
-$path-4x3: "images/4x3/";
+$path: "images/";
+$postfix-1x1: "_1x1";
+$postfix-4x3: "_4x3";
 
 //$flag-list = list of country-codes (XX) where there will be classes flag-icon-XX
 $flag-list: dk, fo, gl;
@@ -60,10 +61,10 @@ $country-list: ad, ae, af, ag, ai, al, am, ao, aq, ar, as, at, au, aw, ax, az, b
 //Create the classes flag-icon-XX for all the country-codes XX
 @each $country-code in $country-list {
     .fa-flag-#{$country-code} {
-        background-image: url(#{$path-4x3 + $country-code + ".svg"});
+        background-image: url(#{$path + $country-code + $postfix-4x3 + ".svg"});
 
         &.fa-flag-squared {
-            background-image: url(#{$path-1x1 + $country-code + ".svg"});
+            background-image: url(#{$path + $country-code + $postfix-1x1 + ".svg"});
         }
     }
 
